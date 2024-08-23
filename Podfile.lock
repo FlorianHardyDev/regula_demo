@@ -1,0 +1,33 @@
+PODS:
+  - DocumentReader (7.4.3826):
+    - RegulaCommon (= 7.4.727)
+  - DocumentReaderFullRFID (7.4.9816)
+  - FaceCoreBasic (6.2.783)
+  - FaceSDK (6.2.2024):
+    - RegulaCommon (= 7.4.727)
+  - RegulaCommon (7.4.727)
+
+DEPENDENCIES:
+  - DocumentReader
+  - DocumentReaderFullRFID
+  - FaceCoreBasic
+  - FaceSDK
+
+SPEC REPOS:
+  trunk:
+    - DocumentReader
+    - DocumentReaderFullRFID
+    - FaceCoreBasic
+    - FaceSDK
+    - RegulaCommon
+
+SPEC CHECKSUMS:
+  DocumentReader: 9d61518017a38df2a885fe5325bd88f9d36e3438
+  DocumentReaderFullRFID: b0d7d1bf9c65efb7415e8381fffeee510e227e3f
+  FaceCoreBasic: c4dd96c2f76134cbfb7c62eb35b35a9bbdcc63b2
+  FaceSDK: 2c447db39d55da1e6791a83f3369f9d3da7fff28
+  RegulaCommon: 2033e45850dba9260b0116c83ae3ce2773fbf082
+
+PODFILE CHECKSUM: b1f6e952ea7004728d4776dcbef90fc340f20be4
+
+COCOAPODS: 1.15.2
