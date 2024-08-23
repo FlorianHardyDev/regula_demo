@@ -7,16 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02805828A4BABD2EF3458F18 /* Pods_RegulaDemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C1FC24EAA5440B3D290AC5 /* Pods_RegulaDemoFramework.framework */; };
 		6DE6CE6B2C77844E0041D118 /* RegulaDemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE6CE582C77844E0041D118 /* RegulaDemoFramework.framework */; };
 		6DE6CE6C2C77844E0041D118 /* RegulaDemoFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE6CE582C77844E0041D118 /* RegulaDemoFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6DE6CE822C7786640041D118 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CE782C7786640041D118 /* DemoViewController.swift */; };
-		6DE6CE852C7786640041D118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CE7E2C7786640041D118 /* AppDelegate.swift */; };
-		6DE6CE862C7786640041D118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CE7F2C7786640041D118 /* Assets.xcassets */; };
-		6DE6CE8D2C7786A20041D118 /* RegulaDemoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CE8A2C7786A20041D118 /* RegulaDemoModule.swift */; };
-		6DE6CE902C7791DA0041D118 /* ModuleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CE8F2C7791DA0041D118 /* ModuleNavigationController.swift */; };
-		6DE6CE922C7870480041D118 /* LivenessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CE912C7870480041D118 /* LivenessViewController.swift */; };
-		793B58FEC7437BD61EBDD96D /* Pods_RegulaDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F35DF0FF39BB5D2A018EF9 /* Pods_RegulaDemoApp.framework */; };
-		EDD600DF1B273DF6158C2B5E /* Pods_RegulaDemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701C0A49DB2DD632E643DE1F /* Pods_RegulaDemoFramework.framework */; };
+		6DE6CEF92C78B6380041D118 /* DocumentReader.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE6CE972C78B6380041D118 /* DocumentReader.xcframework */; };
+		6DE6CEFA2C78B6380041D118 /* DocumentReaderCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE6CE992C78B6380041D118 /* DocumentReaderCore.xcframework */; };
+		6DE6CEFB2C78B6380041D118 /* Liveness.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE6CE9B2C78B6380041D118 /* Liveness.xcframework */; };
+		6DE6CEFC2C78B6380041D118 /* FaceSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE6CE9D2C78B6380041D118 /* FaceSDK.xcframework */; };
+		6DE6CEFD2C78B6380041D118 /* RegulaCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE6CEA12C78B6380041D118 /* RegulaCommon.xcframework */; };
+		6DE6CEFE2C78B6380041D118 /* DocumentReader-xcframeworks-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEA32C78B6380041D118 /* DocumentReader-xcframeworks-input-files.xcfilelist */; };
+		6DE6CEFF2C78B6380041D118 /* DocumentReader-xcframeworks-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEA42C78B6380041D118 /* DocumentReader-xcframeworks-output-files.xcfilelist */; };
+		6DE6CF002C78B6380041D118 /* DocumentReader-xcframeworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEA52C78B6380041D118 /* DocumentReader-xcframeworks.sh */; };
+		6DE6CF012C78B6380041D118 /* DocumentReader.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEA62C78B6380041D118 /* DocumentReader.debug.xcconfig */; };
+		6DE6CF022C78B6380041D118 /* DocumentReader.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEA72C78B6380041D118 /* DocumentReader.release.xcconfig */; };
+		6DE6CF032C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEA92C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-input-files.xcfilelist */; };
+		6DE6CF042C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEAA2C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-output-files.xcfilelist */; };
+		6DE6CF052C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEAB2C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks.sh */; };
+		6DE6CF062C78B6380041D118 /* DocumentReaderFullRFID.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEAC2C78B6380041D118 /* DocumentReaderFullRFID.debug.xcconfig */; };
+		6DE6CF072C78B6380041D118 /* DocumentReaderFullRFID.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEAD2C78B6380041D118 /* DocumentReaderFullRFID.release.xcconfig */; };
+		6DE6CF082C78B6380041D118 /* FaceCoreBasic-xcframeworks-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEAF2C78B6380041D118 /* FaceCoreBasic-xcframeworks-input-files.xcfilelist */; };
+		6DE6CF092C78B6380041D118 /* FaceCoreBasic-xcframeworks-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB02C78B6380041D118 /* FaceCoreBasic-xcframeworks-output-files.xcfilelist */; };
+		6DE6CF0A2C78B6380041D118 /* FaceCoreBasic-xcframeworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB12C78B6380041D118 /* FaceCoreBasic-xcframeworks.sh */; };
+		6DE6CF0B2C78B6380041D118 /* FaceCoreBasic.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB22C78B6380041D118 /* FaceCoreBasic.debug.xcconfig */; };
+		6DE6CF0C2C78B6380041D118 /* FaceCoreBasic.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB32C78B6380041D118 /* FaceCoreBasic.release.xcconfig */; };
+		6DE6CF0D2C78B6380041D118 /* FaceSDK-xcframeworks-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB52C78B6380041D118 /* FaceSDK-xcframeworks-input-files.xcfilelist */; };
+		6DE6CF0E2C78B6380041D118 /* FaceSDK-xcframeworks-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB62C78B6380041D118 /* FaceSDK-xcframeworks-output-files.xcfilelist */; };
+		6DE6CF0F2C78B6380041D118 /* FaceSDK-xcframeworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB72C78B6380041D118 /* FaceSDK-xcframeworks.sh */; };
+		6DE6CF102C78B6380041D118 /* FaceSDK.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB82C78B6380041D118 /* FaceSDK.debug.xcconfig */; };
+		6DE6CF112C78B6380041D118 /* FaceSDK.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEB92C78B6380041D118 /* FaceSDK.release.xcconfig */; };
+		6DE6CF122C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEBB2C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.markdown */; };
+		6DE6CF132C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEBC2C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.plist */; };
+		6DE6CF142C78B6380041D118 /* Pods-RegulaDemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CEBD2C78B6380041D118 /* Pods-RegulaDemoApp-dummy.m */; };
+		6DE6CF152C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEBE2C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-input-files.xcfilelist */; };
+		6DE6CF162C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEBF2C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-output-files.xcfilelist */; };
+		6DE6CF172C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEC02C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-input-files.xcfilelist */; };
+		6DE6CF182C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEC12C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-output-files.xcfilelist */; };
+		6DE6CF192C78B6380041D118 /* Pods-RegulaDemoApp-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEC22C78B6380041D118 /* Pods-RegulaDemoApp-frameworks.sh */; };
+		6DE6CF1A2C78B6380041D118 /* Pods-RegulaDemoApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEC32C78B6380041D118 /* Pods-RegulaDemoApp-Info.plist */; };
+		6DE6CF1B2C78B6380041D118 /* Pods-RegulaDemoApp.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEC52C78B6380041D118 /* Pods-RegulaDemoApp.debug.xcconfig */; };
+		6DE6CF1C2C78B6380041D118 /* Pods-RegulaDemoApp.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEC72C78B6380041D118 /* Pods-RegulaDemoApp.release.xcconfig */; };
+		6DE6CF1D2C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEC92C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.markdown */; };
+		6DE6CF1E2C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CECA2C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.plist */; };
+		6DE6CF1F2C78B6380041D118 /* Pods-RegulaDemoFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CECB2C78B6380041D118 /* Pods-RegulaDemoFramework-dummy.m */; };
+		6DE6CF202C78B6380041D118 /* Pods-RegulaDemoFramework-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CECC2C78B6380041D118 /* Pods-RegulaDemoFramework-Info.plist */; };
+		6DE6CF212C78B6380041D118 /* Pods-RegulaDemoFramework.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CECE2C78B6380041D118 /* Pods-RegulaDemoFramework.debug.xcconfig */; };
+		6DE6CF222C78B6380041D118 /* Pods-RegulaDemoFramework.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CED02C78B6380041D118 /* Pods-RegulaDemoFramework.release.xcconfig */; };
+		6DE6CF232C78B6380041D118 /* RegulaCommon-xcframeworks-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CED22C78B6380041D118 /* RegulaCommon-xcframeworks-input-files.xcfilelist */; };
+		6DE6CF242C78B6380041D118 /* RegulaCommon-xcframeworks-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CED32C78B6380041D118 /* RegulaCommon-xcframeworks-output-files.xcfilelist */; };
+		6DE6CF252C78B6380041D118 /* RegulaCommon-xcframeworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CED42C78B6380041D118 /* RegulaCommon-xcframeworks.sh */; };
+		6DE6CF262C78B6380041D118 /* RegulaCommon.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CED52C78B6380041D118 /* RegulaCommon.debug.xcconfig */; };
+		6DE6CF272C78B6380041D118 /* RegulaCommon.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CED62C78B6380041D118 /* RegulaCommon.release.xcconfig */; };
+		6DE6CF282C78B6380041D118 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CED92C78B6380041D118 /* Manifest.lock */; };
+		6DE6CF292C78B6380041D118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CEE92C78B6380041D118 /* AppDelegate.swift */; };
+		6DE6CF2A2C78B6380041D118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEEA2C78B6380041D118 /* Assets.xcassets */; };
+		6DE6CF2B2C78B6380041D118 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CEEB2C78B6380041D118 /* DemoViewController.swift */; };
+		6DE6CF2C2C78B6380041D118 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEEC2C78B6380041D118 /* Info.plist */; };
+		6DE6CF2D2C78B6380041D118 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEEE2C78B6380041D118 /* Info.plist */; };
+		6DE6CF2E2C78B6380041D118 /* LivenessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CEEF2C78B6380041D118 /* LivenessViewController.swift */; };
+		6DE6CF2F2C78B6380041D118 /* ModuleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CEF02C78B6380041D118 /* ModuleNavigationController.swift */; };
+		6DE6CF302C78B6380041D118 /* RegulaDemoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6CEF22C78B6380041D118 /* RegulaDemoModule.swift */; };
+		6DE6CF312C78B6380041D118 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEF42C78B6380041D118 /* Info.plist */; };
+		6DE6CF322C78B6380041D118 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEF62C78B6380041D118 /* Podfile */; };
+		6DE6CF332C78B6380041D118 /* RegulaDemoApp.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEF72C78B6380041D118 /* RegulaDemoApp.xcworkspace */; };
+		6DE6CF342C78B6380041D118 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6CEF82C78B6380041D118 /* Podfile.lock */; };
+		845425F5BC69FBF21947C336 /* Pods_RegulaDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90538791AA95B6EDFE431293 /* Pods_RegulaDemoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +80,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6DE6CE572C77844E0041D118;
 			remoteInfo = RegulaDemoFramework;
+		};
+		6DE6CEE52C78B6380041D118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DE6CEDA2C78B6380041D118 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D0699B5A227025BE5CAB55CBC81B31D;
+			remoteInfo = "Pods-RegulaDemoApp";
+		};
+		6DE6CEE72C78B6380041D118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DE6CEDA2C78B6380041D118 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2A4213E12E22CD8A2010C69C1BBBE84E;
+			remoteInfo = "Pods-RegulaDemoFramework";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,24 +112,80 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33F35DF0FF39BB5D2A018EF9 /* Pods_RegulaDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegulaDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F12851CAECAB20F1CB82C0D /* Pods-RegulaDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegulaDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4654D8A075ACA94F018DB9FD /* Pods-RegulaDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegulaDemoApp.release.xcconfig"; path = "Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		65C1FC24EAA5440B3D290AC5 /* Pods_RegulaDemoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegulaDemoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE6CDD12C7781630041D118 /* RegulaDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegulaDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DE6CDE02C7781640041D118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE6CE582C77844E0041D118 /* RegulaDemoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RegulaDemoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DE6CE762C7786640041D118 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RegulaDemoApp/Info.plist; sourceTree = "<group>"; };
-		6DE6CE782C7786640041D118 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = RegulaDemoApp/DemoViewController.swift; sourceTree = "<group>"; };
-		6DE6CE7E2C7786640041D118 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RegulaDemoApp/AppDelegate.swift; sourceTree = "<group>"; };
-		6DE6CE7F2C7786640041D118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RegulaDemoApp/Assets.xcassets; sourceTree = "<group>"; };
-		6DE6CE892C7786A20041D118 /* RegulaDemoFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegulaDemoFramework.h; sourceTree = "<group>"; };
-		6DE6CE8A2C7786A20041D118 /* RegulaDemoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegulaDemoModule.swift; sourceTree = "<group>"; };
-		6DE6CE8F2C7791DA0041D118 /* ModuleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleNavigationController.swift; sourceTree = "<group>"; };
-		6DE6CE912C7870480041D118 /* LivenessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessViewController.swift; sourceTree = "<group>"; };
-		6DE6CE952C7875D80041D118 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		701C0A49DB2DD632E643DE1F /* Pods_RegulaDemoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegulaDemoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F10690835A97C401C075F8B /* Pods-RegulaDemoFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegulaDemoFramework.debug.xcconfig"; path = "Target Support Files/Pods-RegulaDemoFramework/Pods-RegulaDemoFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		A156A212873C4307A19F0622 /* Pods-RegulaDemoFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegulaDemoFramework.release.xcconfig"; path = "Target Support Files/Pods-RegulaDemoFramework/Pods-RegulaDemoFramework.release.xcconfig"; sourceTree = "<group>"; };
-		F911EFE3E315B5FAD0C2FCAB /* Pods-RegulaDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegulaDemoApp.release.xcconfig"; path = "Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		6DE6CE972C78B6380041D118 /* DocumentReader.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DocumentReader.xcframework; sourceTree = "<group>"; };
+		6DE6CE992C78B6380041D118 /* DocumentReaderCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DocumentReaderCore.xcframework; sourceTree = "<group>"; };
+		6DE6CE9B2C78B6380041D118 /* Liveness.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Liveness.xcframework; sourceTree = "<group>"; };
+		6DE6CE9D2C78B6380041D118 /* FaceSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FaceSDK.xcframework; sourceTree = "<group>"; };
+		6DE6CEA12C78B6380041D118 /* RegulaCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RegulaCommon.xcframework; sourceTree = "<group>"; };
+		6DE6CEA32C78B6380041D118 /* DocumentReader-xcframeworks-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "DocumentReader-xcframeworks-input-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEA42C78B6380041D118 /* DocumentReader-xcframeworks-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "DocumentReader-xcframeworks-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEA52C78B6380041D118 /* DocumentReader-xcframeworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "DocumentReader-xcframeworks.sh"; sourceTree = "<group>"; };
+		6DE6CEA62C78B6380041D118 /* DocumentReader.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DocumentReader.debug.xcconfig; sourceTree = "<group>"; };
+		6DE6CEA72C78B6380041D118 /* DocumentReader.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DocumentReader.release.xcconfig; sourceTree = "<group>"; };
+		6DE6CEA92C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "DocumentReaderFullRFID-xcframeworks-input-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEAA2C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "DocumentReaderFullRFID-xcframeworks-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEAB2C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "DocumentReaderFullRFID-xcframeworks.sh"; sourceTree = "<group>"; };
+		6DE6CEAC2C78B6380041D118 /* DocumentReaderFullRFID.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DocumentReaderFullRFID.debug.xcconfig; sourceTree = "<group>"; };
+		6DE6CEAD2C78B6380041D118 /* DocumentReaderFullRFID.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DocumentReaderFullRFID.release.xcconfig; sourceTree = "<group>"; };
+		6DE6CEAF2C78B6380041D118 /* FaceCoreBasic-xcframeworks-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "FaceCoreBasic-xcframeworks-input-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEB02C78B6380041D118 /* FaceCoreBasic-xcframeworks-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "FaceCoreBasic-xcframeworks-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEB12C78B6380041D118 /* FaceCoreBasic-xcframeworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "FaceCoreBasic-xcframeworks.sh"; sourceTree = "<group>"; };
+		6DE6CEB22C78B6380041D118 /* FaceCoreBasic.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FaceCoreBasic.debug.xcconfig; sourceTree = "<group>"; };
+		6DE6CEB32C78B6380041D118 /* FaceCoreBasic.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FaceCoreBasic.release.xcconfig; sourceTree = "<group>"; };
+		6DE6CEB52C78B6380041D118 /* FaceSDK-xcframeworks-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "FaceSDK-xcframeworks-input-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEB62C78B6380041D118 /* FaceSDK-xcframeworks-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "FaceSDK-xcframeworks-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEB72C78B6380041D118 /* FaceSDK-xcframeworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "FaceSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		6DE6CEB82C78B6380041D118 /* FaceSDK.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FaceSDK.debug.xcconfig; sourceTree = "<group>"; };
+		6DE6CEB92C78B6380041D118 /* FaceSDK.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FaceSDK.release.xcconfig; sourceTree = "<group>"; };
+		6DE6CEBB2C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-RegulaDemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DE6CEBC2C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-RegulaDemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DE6CEBD2C78B6380041D118 /* Pods-RegulaDemoApp-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-RegulaDemoApp-dummy.m"; sourceTree = "<group>"; };
+		6DE6CEBE2C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-RegulaDemoApp-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEBF2C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-RegulaDemoApp-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEC02C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-RegulaDemoApp-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEC12C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-RegulaDemoApp-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CEC22C78B6380041D118 /* Pods-RegulaDemoApp-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-RegulaDemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		6DE6CEC32C78B6380041D118 /* Pods-RegulaDemoApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-RegulaDemoApp-Info.plist"; sourceTree = "<group>"; };
+		6DE6CEC42C78B6380041D118 /* Pods-RegulaDemoApp-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-RegulaDemoApp-umbrella.h"; sourceTree = "<group>"; };
+		6DE6CEC52C78B6380041D118 /* Pods-RegulaDemoApp.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-RegulaDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6DE6CEC62C78B6380041D118 /* Pods-RegulaDemoApp.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RegulaDemoApp.modulemap"; sourceTree = "<group>"; };
+		6DE6CEC72C78B6380041D118 /* Pods-RegulaDemoApp.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-RegulaDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		6DE6CEC92C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-RegulaDemoFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DE6CECA2C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-RegulaDemoFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DE6CECB2C78B6380041D118 /* Pods-RegulaDemoFramework-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-RegulaDemoFramework-dummy.m"; sourceTree = "<group>"; };
+		6DE6CECC2C78B6380041D118 /* Pods-RegulaDemoFramework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-RegulaDemoFramework-Info.plist"; sourceTree = "<group>"; };
+		6DE6CECD2C78B6380041D118 /* Pods-RegulaDemoFramework-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-RegulaDemoFramework-umbrella.h"; sourceTree = "<group>"; };
+		6DE6CECE2C78B6380041D118 /* Pods-RegulaDemoFramework.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-RegulaDemoFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		6DE6CECF2C78B6380041D118 /* Pods-RegulaDemoFramework.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RegulaDemoFramework.modulemap"; sourceTree = "<group>"; };
+		6DE6CED02C78B6380041D118 /* Pods-RegulaDemoFramework.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-RegulaDemoFramework.release.xcconfig"; sourceTree = "<group>"; };
+		6DE6CED22C78B6380041D118 /* RegulaCommon-xcframeworks-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "RegulaCommon-xcframeworks-input-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CED32C78B6380041D118 /* RegulaCommon-xcframeworks-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "RegulaCommon-xcframeworks-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6DE6CED42C78B6380041D118 /* RegulaCommon-xcframeworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "RegulaCommon-xcframeworks.sh"; sourceTree = "<group>"; };
+		6DE6CED52C78B6380041D118 /* RegulaCommon.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = RegulaCommon.debug.xcconfig; sourceTree = "<group>"; };
+		6DE6CED62C78B6380041D118 /* RegulaCommon.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = RegulaCommon.release.xcconfig; sourceTree = "<group>"; };
+		6DE6CED92C78B6380041D118 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		6DE6CEDA2C78B6380041D118 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		6DE6CEE92C78B6380041D118 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DE6CEEA2C78B6380041D118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DE6CEEB2C78B6380041D118 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		6DE6CEEC2C78B6380041D118 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE6CEEE2C78B6380041D118 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE6CEEF2C78B6380041D118 /* LivenessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivenessViewController.swift; sourceTree = "<group>"; };
+		6DE6CEF02C78B6380041D118 /* ModuleNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleNavigationController.swift; sourceTree = "<group>"; };
+		6DE6CEF12C78B6380041D118 /* RegulaDemoFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegulaDemoFramework.h; sourceTree = "<group>"; };
+		6DE6CEF22C78B6380041D118 /* RegulaDemoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegulaDemoModule.swift; sourceTree = "<group>"; };
+		6DE6CEF42C78B6380041D118 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE6CEF62C78B6380041D118 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6DE6CEF72C78B6380041D118 /* RegulaDemoApp.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = RegulaDemoApp.xcworkspace; sourceTree = "<group>"; };
+		6DE6CEF82C78B6380041D118 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		90538791AA95B6EDFE431293 /* Pods_RegulaDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegulaDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95505EAA8F326B9E8F6DEDC7 /* Pods-RegulaDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegulaDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A36BBB1CC624350296BD6442 /* Pods-RegulaDemoFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegulaDemoFramework.debug.xcconfig"; path = "Target Support Files/Pods-RegulaDemoFramework/Pods-RegulaDemoFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		C4008B7061BCECBB6DC6AFE4 /* Pods-RegulaDemoFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegulaDemoFramework.release.xcconfig"; path = "Target Support Files/Pods-RegulaDemoFramework/Pods-RegulaDemoFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +193,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE6CEFA2C78B6380041D118 /* DocumentReaderCore.xcframework in Frameworks */,
+				6DE6CEFD2C78B6380041D118 /* RegulaCommon.xcframework in Frameworks */,
+				6DE6CEF92C78B6380041D118 /* DocumentReader.xcframework in Frameworks */,
 				6DE6CE6B2C77844E0041D118 /* RegulaDemoFramework.framework in Frameworks */,
-				793B58FEC7437BD61EBDD96D /* Pods_RegulaDemoApp.framework in Frameworks */,
+				6DE6CEFB2C78B6380041D118 /* Liveness.xcframework in Frameworks */,
+				6DE6CEFC2C78B6380041D118 /* FaceSDK.xcframework in Frameworks */,
+				845425F5BC69FBF21947C336 /* Pods_RegulaDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +207,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD600DF1B273DF6158C2B5E /* Pods_RegulaDemoFramework.framework in Frameworks */,
+				02805828A4BABD2EF3458F18 /* Pods_RegulaDemoFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,22 +217,30 @@
 		37F56FAECFF3C5ABE874AD34 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3F12851CAECAB20F1CB82C0D /* Pods-RegulaDemoApp.debug.xcconfig */,
-				F911EFE3E315B5FAD0C2FCAB /* Pods-RegulaDemoApp.release.xcconfig */,
-				8F10690835A97C401C075F8B /* Pods-RegulaDemoFramework.debug.xcconfig */,
-				A156A212873C4307A19F0622 /* Pods-RegulaDemoFramework.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		49FC61DFD353F824DFEDB2F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90538791AA95B6EDFE431293 /* Pods_RegulaDemoApp.framework */,
+				65C1FC24EAA5440B3D290AC5 /* Pods_RegulaDemoFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6DE6CDC82C7781630041D118 = {
 			isa = PBXGroup;
 			children = (
-				6DE6CDD32C7781630041D118 /* RegulaDemoApp */,
-				6DE6CE8B2C7786A20041D118 /* RegulaDemoFramework */,
+				6DE6CEF62C78B6380041D118 /* Podfile */,
+				6DE6CEF82C78B6380041D118 /* Podfile.lock */,
+				6DE6CEDB2C78B6380041D118 /* Pods */,
+				6DE6CEF52C78B6380041D118 /* RegulaDemo */,
+				6DE6CEF72C78B6380041D118 /* RegulaDemoApp.xcworkspace */,
 				6DE6CDD22C7781630041D118 /* Products */,
 				37F56FAECFF3C5ABE874AD34 /* Pods */,
-				B7052443571D798197D3F39D /* Frameworks */,
+				49FC61DFD353F824DFEDB2F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,38 +253,230 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DE6CDD32C7781630041D118 /* RegulaDemoApp */ = {
+		6DE6CE982C78B6380041D118 /* DocumentReader */ = {
 			isa = PBXGroup;
 			children = (
-				6DE6CE7E2C7786640041D118 /* AppDelegate.swift */,
-				6DE6CE7F2C7786640041D118 /* Assets.xcassets */,
-				6DE6CE762C7786640041D118 /* Info.plist */,
-				6DE6CE782C7786640041D118 /* DemoViewController.swift */,
-				6DE6CDDF2C7781640041D118 /* LaunchScreen.storyboard */,
+				6DE6CE972C78B6380041D118 /* DocumentReader.xcframework */,
+			);
+			path = DocumentReader;
+			sourceTree = "<group>";
+		};
+		6DE6CE9A2C78B6380041D118 /* DocumentReaderFullRFID */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CE992C78B6380041D118 /* DocumentReaderCore.xcframework */,
+			);
+			path = DocumentReaderFullRFID;
+			sourceTree = "<group>";
+		};
+		6DE6CE9C2C78B6380041D118 /* FaceCoreBasic */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CE9B2C78B6380041D118 /* Liveness.xcframework */,
+			);
+			path = FaceCoreBasic;
+			sourceTree = "<group>";
+		};
+		6DE6CE9E2C78B6380041D118 /* FaceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CE9D2C78B6380041D118 /* FaceSDK.xcframework */,
+			);
+			path = FaceSDK;
+			sourceTree = "<group>";
+		};
+		6DE6CE9F2C78B6380041D118 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		6DE6CEA02C78B6380041D118 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		6DE6CEA22C78B6380041D118 /* RegulaCommon */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEA12C78B6380041D118 /* RegulaCommon.xcframework */,
+			);
+			path = RegulaCommon;
+			sourceTree = "<group>";
+		};
+		6DE6CEA82C78B6380041D118 /* DocumentReader */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEA32C78B6380041D118 /* DocumentReader-xcframeworks-input-files.xcfilelist */,
+				6DE6CEA42C78B6380041D118 /* DocumentReader-xcframeworks-output-files.xcfilelist */,
+				6DE6CEA52C78B6380041D118 /* DocumentReader-xcframeworks.sh */,
+				6DE6CEA62C78B6380041D118 /* DocumentReader.debug.xcconfig */,
+				6DE6CEA72C78B6380041D118 /* DocumentReader.release.xcconfig */,
+			);
+			path = DocumentReader;
+			sourceTree = "<group>";
+		};
+		6DE6CEAE2C78B6380041D118 /* DocumentReaderFullRFID */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEA92C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-input-files.xcfilelist */,
+				6DE6CEAA2C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-output-files.xcfilelist */,
+				6DE6CEAB2C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks.sh */,
+				6DE6CEAC2C78B6380041D118 /* DocumentReaderFullRFID.debug.xcconfig */,
+				6DE6CEAD2C78B6380041D118 /* DocumentReaderFullRFID.release.xcconfig */,
+			);
+			path = DocumentReaderFullRFID;
+			sourceTree = "<group>";
+		};
+		6DE6CEB42C78B6380041D118 /* FaceCoreBasic */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEAF2C78B6380041D118 /* FaceCoreBasic-xcframeworks-input-files.xcfilelist */,
+				6DE6CEB02C78B6380041D118 /* FaceCoreBasic-xcframeworks-output-files.xcfilelist */,
+				6DE6CEB12C78B6380041D118 /* FaceCoreBasic-xcframeworks.sh */,
+				6DE6CEB22C78B6380041D118 /* FaceCoreBasic.debug.xcconfig */,
+				6DE6CEB32C78B6380041D118 /* FaceCoreBasic.release.xcconfig */,
+			);
+			path = FaceCoreBasic;
+			sourceTree = "<group>";
+		};
+		6DE6CEBA2C78B6380041D118 /* FaceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEB52C78B6380041D118 /* FaceSDK-xcframeworks-input-files.xcfilelist */,
+				6DE6CEB62C78B6380041D118 /* FaceSDK-xcframeworks-output-files.xcfilelist */,
+				6DE6CEB72C78B6380041D118 /* FaceSDK-xcframeworks.sh */,
+				6DE6CEB82C78B6380041D118 /* FaceSDK.debug.xcconfig */,
+				6DE6CEB92C78B6380041D118 /* FaceSDK.release.xcconfig */,
+			);
+			path = FaceSDK;
+			sourceTree = "<group>";
+		};
+		6DE6CEC82C78B6380041D118 /* Pods-RegulaDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEBB2C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.markdown */,
+				6DE6CEBC2C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.plist */,
+				6DE6CEBD2C78B6380041D118 /* Pods-RegulaDemoApp-dummy.m */,
+				6DE6CEBE2C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-input-files.xcfilelist */,
+				6DE6CEBF2C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-output-files.xcfilelist */,
+				6DE6CEC02C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-input-files.xcfilelist */,
+				6DE6CEC12C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-output-files.xcfilelist */,
+				6DE6CEC22C78B6380041D118 /* Pods-RegulaDemoApp-frameworks.sh */,
+				6DE6CEC32C78B6380041D118 /* Pods-RegulaDemoApp-Info.plist */,
+				6DE6CEC42C78B6380041D118 /* Pods-RegulaDemoApp-umbrella.h */,
+				6DE6CEC52C78B6380041D118 /* Pods-RegulaDemoApp.debug.xcconfig */,
+				6DE6CEC62C78B6380041D118 /* Pods-RegulaDemoApp.modulemap */,
+				6DE6CEC72C78B6380041D118 /* Pods-RegulaDemoApp.release.xcconfig */,
+			);
+			path = "Pods-RegulaDemoApp";
+			sourceTree = "<group>";
+		};
+		6DE6CED12C78B6380041D118 /* Pods-RegulaDemoFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEC92C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.markdown */,
+				6DE6CECA2C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.plist */,
+				6DE6CECB2C78B6380041D118 /* Pods-RegulaDemoFramework-dummy.m */,
+				6DE6CECC2C78B6380041D118 /* Pods-RegulaDemoFramework-Info.plist */,
+				6DE6CECD2C78B6380041D118 /* Pods-RegulaDemoFramework-umbrella.h */,
+				6DE6CECE2C78B6380041D118 /* Pods-RegulaDemoFramework.debug.xcconfig */,
+				6DE6CECF2C78B6380041D118 /* Pods-RegulaDemoFramework.modulemap */,
+				6DE6CED02C78B6380041D118 /* Pods-RegulaDemoFramework.release.xcconfig */,
+			);
+			path = "Pods-RegulaDemoFramework";
+			sourceTree = "<group>";
+		};
+		6DE6CED72C78B6380041D118 /* RegulaCommon */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CED22C78B6380041D118 /* RegulaCommon-xcframeworks-input-files.xcfilelist */,
+				6DE6CED32C78B6380041D118 /* RegulaCommon-xcframeworks-output-files.xcfilelist */,
+				6DE6CED42C78B6380041D118 /* RegulaCommon-xcframeworks.sh */,
+				6DE6CED52C78B6380041D118 /* RegulaCommon.debug.xcconfig */,
+				6DE6CED62C78B6380041D118 /* RegulaCommon.release.xcconfig */,
+			);
+			path = RegulaCommon;
+			sourceTree = "<group>";
+		};
+		6DE6CED82C78B6380041D118 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEA82C78B6380041D118 /* DocumentReader */,
+				6DE6CEAE2C78B6380041D118 /* DocumentReaderFullRFID */,
+				6DE6CEB42C78B6380041D118 /* FaceCoreBasic */,
+				6DE6CEBA2C78B6380041D118 /* FaceSDK */,
+				6DE6CEC82C78B6380041D118 /* Pods-RegulaDemoApp */,
+				6DE6CED12C78B6380041D118 /* Pods-RegulaDemoFramework */,
+				6DE6CED72C78B6380041D118 /* RegulaCommon */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		6DE6CEDB2C78B6380041D118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CE982C78B6380041D118 /* DocumentReader */,
+				6DE6CE9A2C78B6380041D118 /* DocumentReaderFullRFID */,
+				6DE6CE9C2C78B6380041D118 /* FaceCoreBasic */,
+				6DE6CE9E2C78B6380041D118 /* FaceSDK */,
+				6DE6CE9F2C78B6380041D118 /* Headers */,
+				6DE6CEA02C78B6380041D118 /* Local Podspecs */,
+				6DE6CEA22C78B6380041D118 /* RegulaCommon */,
+				6DE6CED82C78B6380041D118 /* Target Support Files */,
+				6DE6CED92C78B6380041D118 /* Manifest.lock */,
+				6DE6CEDA2C78B6380041D118 /* Pods.xcodeproj */,
+				95505EAA8F326B9E8F6DEDC7 /* Pods-RegulaDemoApp.debug.xcconfig */,
+				4654D8A075ACA94F018DB9FD /* Pods-RegulaDemoApp.release.xcconfig */,
+				A36BBB1CC624350296BD6442 /* Pods-RegulaDemoFramework.debug.xcconfig */,
+				C4008B7061BCECBB6DC6AFE4 /* Pods-RegulaDemoFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6DE6CEDC2C78B6380041D118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEE62C78B6380041D118 /* Pods-RegulaDemoApp */,
+				6DE6CEE82C78B6380041D118 /* Pods-RegulaDemoFramework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DE6CEED2C78B6380041D118 /* RegulaDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				6DE6CEE92C78B6380041D118 /* AppDelegate.swift */,
+				6DE6CEEA2C78B6380041D118 /* Assets.xcassets */,
+				6DE6CEEB2C78B6380041D118 /* DemoViewController.swift */,
+				6DE6CEEC2C78B6380041D118 /* Info.plist */,
 			);
 			path = RegulaDemoApp;
 			sourceTree = "<group>";
 		};
-		6DE6CE8B2C7786A20041D118 /* RegulaDemoFramework */ = {
+		6DE6CEF32C78B6380041D118 /* RegulaDemoFramework */ = {
 			isa = PBXGroup;
 			children = (
-				6DE6CE952C7875D80041D118 /* Info.plist */,
-				6DE6CE892C7786A20041D118 /* RegulaDemoFramework.h */,
-				6DE6CE8A2C7786A20041D118 /* RegulaDemoModule.swift */,
-				6DE6CE8F2C7791DA0041D118 /* ModuleNavigationController.swift */,
-				6DE6CE912C7870480041D118 /* LivenessViewController.swift */,
+				6DE6CEEE2C78B6380041D118 /* Info.plist */,
+				6DE6CEEF2C78B6380041D118 /* LivenessViewController.swift */,
+				6DE6CEF02C78B6380041D118 /* ModuleNavigationController.swift */,
+				6DE6CEF12C78B6380041D118 /* RegulaDemoFramework.h */,
+				6DE6CEF22C78B6380041D118 /* RegulaDemoModule.swift */,
 			);
-			name = RegulaDemoFramework;
-			path = RegulaDemoApp/RegulaDemoFramework;
+			path = RegulaDemoFramework;
 			sourceTree = "<group>";
 		};
-		B7052443571D798197D3F39D /* Frameworks */ = {
+		6DE6CEF52C78B6380041D118 /* RegulaDemo */ = {
 			isa = PBXGroup;
 			children = (
-				33F35DF0FF39BB5D2A018EF9 /* Pods_RegulaDemoApp.framework */,
-				701C0A49DB2DD632E643DE1F /* Pods_RegulaDemoFramework.framework */,
+				6DE6CEED2C78B6380041D118 /* RegulaDemoApp */,
+				6DE6CEF32C78B6380041D118 /* RegulaDemoFramework */,
+				6DE6CEF42C78B6380041D118 /* Info.plist */,
 			);
-			name = Frameworks;
+			path = RegulaDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,12 +496,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DE6CDFB2C7781640041D118 /* Build configuration list for PBXNativeTarget "RegulaDemoApp" */;
 			buildPhases = (
-				51F0346F35264B8485ED1B8B /* [CP] Check Pods Manifest.lock */,
+				0100FF9330F160F1BC926633 /* [CP] Check Pods Manifest.lock */,
 				6DE6CDCD2C7781630041D118 /* Sources */,
 				6DE6CDCE2C7781630041D118 /* Frameworks */,
 				6DE6CDCF2C7781630041D118 /* Resources */,
 				6DE6CE6D2C77844E0041D118 /* Embed Frameworks */,
-				9BDB86E212440A268BAE0C4E /* [CP] Embed Pods Frameworks */,
+				3EEF0F46FDEB7A7592A38666 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,7 +517,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DE6CE722C77844E0041D118 /* Build configuration list for PBXNativeTarget "RegulaDemoFramework" */;
 			buildPhases = (
-				7666E1604506F4D1C54740E0 /* [CP] Check Pods Manifest.lock */,
+				68954B724FA1EBE1B49EDA22 /* [CP] Check Pods Manifest.lock */,
 				6DE6CE532C77844E0041D118 /* Headers */,
 				6DE6CE542C77844E0041D118 /* Sources */,
 				6DE6CE552C77844E0041D118 /* Frameworks */,
@@ -233,6 +562,12 @@
 			mainGroup = 6DE6CDC82C7781630041D118;
 			productRefGroup = 6DE6CDD22C7781630041D118 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6DE6CEDC2C78B6380041D118 /* Products */;
+					ProjectRef = 6DE6CEDA2C78B6380041D118 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6DE6CDD02C7781630041D118 /* RegulaDemoApp */,
@@ -241,12 +576,78 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		6DE6CEE62C78B6380041D118 /* Pods-RegulaDemoApp */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-RegulaDemoApp";
+			path = Pods_RegulaDemoApp.framework;
+			remoteRef = 6DE6CEE52C78B6380041D118 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6DE6CEE82C78B6380041D118 /* Pods-RegulaDemoFramework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-RegulaDemoFramework";
+			path = Pods_RegulaDemoFramework.framework;
+			remoteRef = 6DE6CEE72C78B6380041D118 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		6DE6CDCF2C7781630041D118 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE6CE862C7786640041D118 /* Assets.xcassets in Resources */,
+				6DE6CF132C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.plist in Resources */,
+				6DE6CF1C2C78B6380041D118 /* Pods-RegulaDemoApp.release.xcconfig in Resources */,
+				6DE6CF0F2C78B6380041D118 /* FaceSDK-xcframeworks.sh in Resources */,
+				6DE6CF042C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-output-files.xcfilelist in Resources */,
+				6DE6CF082C78B6380041D118 /* FaceCoreBasic-xcframeworks-input-files.xcfilelist in Resources */,
+				6DE6CF112C78B6380041D118 /* FaceSDK.release.xcconfig in Resources */,
+				6DE6CF0E2C78B6380041D118 /* FaceSDK-xcframeworks-output-files.xcfilelist in Resources */,
+				6DE6CF2C2C78B6380041D118 /* Info.plist in Resources */,
+				6DE6CF262C78B6380041D118 /* RegulaCommon.debug.xcconfig in Resources */,
+				6DE6CF312C78B6380041D118 /* Info.plist in Resources */,
+				6DE6CF322C78B6380041D118 /* Podfile in Resources */,
+				6DE6CEFE2C78B6380041D118 /* DocumentReader-xcframeworks-input-files.xcfilelist in Resources */,
+				6DE6CF212C78B6380041D118 /* Pods-RegulaDemoFramework.debug.xcconfig in Resources */,
+				6DE6CF182C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-output-files.xcfilelist in Resources */,
+				6DE6CF092C78B6380041D118 /* FaceCoreBasic-xcframeworks-output-files.xcfilelist in Resources */,
+				6DE6CF0D2C78B6380041D118 /* FaceSDK-xcframeworks-input-files.xcfilelist in Resources */,
+				6DE6CF0A2C78B6380041D118 /* FaceCoreBasic-xcframeworks.sh in Resources */,
+				6DE6CF172C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Release-input-files.xcfilelist in Resources */,
+				6DE6CF2A2C78B6380041D118 /* Assets.xcassets in Resources */,
+				6DE6CF0C2C78B6380041D118 /* FaceCoreBasic.release.xcconfig in Resources */,
+				6DE6CF0B2C78B6380041D118 /* FaceCoreBasic.debug.xcconfig in Resources */,
+				6DE6CF102C78B6380041D118 /* FaceSDK.debug.xcconfig in Resources */,
+				6DE6CF332C78B6380041D118 /* RegulaDemoApp.xcworkspace in Resources */,
+				6DE6CF1D2C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.markdown in Resources */,
+				6DE6CF032C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks-input-files.xcfilelist in Resources */,
+				6DE6CF252C78B6380041D118 /* RegulaCommon-xcframeworks.sh in Resources */,
+				6DE6CF242C78B6380041D118 /* RegulaCommon-xcframeworks-output-files.xcfilelist in Resources */,
+				6DE6CF152C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-input-files.xcfilelist in Resources */,
+				6DE6CF122C78B6380041D118 /* Pods-RegulaDemoApp-acknowledgements.markdown in Resources */,
+				6DE6CF072C78B6380041D118 /* DocumentReaderFullRFID.release.xcconfig in Resources */,
+				6DE6CF002C78B6380041D118 /* DocumentReader-xcframeworks.sh in Resources */,
+				6DE6CF1E2C78B6380041D118 /* Pods-RegulaDemoFramework-acknowledgements.plist in Resources */,
+				6DE6CF222C78B6380041D118 /* Pods-RegulaDemoFramework.release.xcconfig in Resources */,
+				6DE6CF062C78B6380041D118 /* DocumentReaderFullRFID.debug.xcconfig in Resources */,
+				6DE6CF052C78B6380041D118 /* DocumentReaderFullRFID-xcframeworks.sh in Resources */,
+				6DE6CF202C78B6380041D118 /* Pods-RegulaDemoFramework-Info.plist in Resources */,
+				6DE6CF022C78B6380041D118 /* DocumentReader.release.xcconfig in Resources */,
+				6DE6CF192C78B6380041D118 /* Pods-RegulaDemoApp-frameworks.sh in Resources */,
+				6DE6CF232C78B6380041D118 /* RegulaCommon-xcframeworks-input-files.xcfilelist in Resources */,
+				6DE6CEFF2C78B6380041D118 /* DocumentReader-xcframeworks-output-files.xcfilelist in Resources */,
+				6DE6CF342C78B6380041D118 /* Podfile.lock in Resources */,
+				6DE6CF2D2C78B6380041D118 /* Info.plist in Resources */,
+				6DE6CF272C78B6380041D118 /* RegulaCommon.release.xcconfig in Resources */,
+				6DE6CF1A2C78B6380041D118 /* Pods-RegulaDemoApp-Info.plist in Resources */,
+				6DE6CF012C78B6380041D118 /* DocumentReader.debug.xcconfig in Resources */,
+				6DE6CF282C78B6380041D118 /* Manifest.lock in Resources */,
+				6DE6CF1B2C78B6380041D118 /* Pods-RegulaDemoApp.debug.xcconfig in Resources */,
+				6DE6CF162C78B6380041D118 /* Pods-RegulaDemoApp-frameworks-Debug-output-files.xcfilelist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +661,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51F0346F35264B8485ED1B8B /* [CP] Check Pods Manifest.lock */ = {
+		0100FF9330F160F1BC926633 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,7 +683,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7666E1604506F4D1C54740E0 /* [CP] Check Pods Manifest.lock */ = {
+		3EEF0F46FDEB7A7592A38666 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68954B724FA1EBE1B49EDA22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,23 +722,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9BDB86E212440A268BAE0C4E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RegulaDemoApp/Pods-RegulaDemoApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -328,11 +729,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE6CE8D2C7786A20041D118 /* RegulaDemoModule.swift in Sources */,
-				6DE6CE922C7870480041D118 /* LivenessViewController.swift in Sources */,
-				6DE6CE852C7786640041D118 /* AppDelegate.swift in Sources */,
-				6DE6CE902C7791DA0041D118 /* ModuleNavigationController.swift in Sources */,
-				6DE6CE822C7786640041D118 /* DemoViewController.swift in Sources */,
+				6DE6CF292C78B6380041D118 /* AppDelegate.swift in Sources */,
+				6DE6CF2E2C78B6380041D118 /* LivenessViewController.swift in Sources */,
+				6DE6CF1F2C78B6380041D118 /* Pods-RegulaDemoFramework-dummy.m in Sources */,
+				6DE6CF2B2C78B6380041D118 /* DemoViewController.swift in Sources */,
+				6DE6CF2F2C78B6380041D118 /* ModuleNavigationController.swift in Sources */,
+				6DE6CF302C78B6380041D118 /* RegulaDemoModule.swift in Sources */,
+				6DE6CF142C78B6380041D118 /* Pods-RegulaDemoApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,17 +755,6 @@
 			targetProxy = 6DE6CE692C77844E0041D118 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6DE6CDDF2C7781640041D118 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DE6CDE02C7781640041D118 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6DE6CDF92C7781640041D118 /* Debug */ = {
@@ -486,7 +878,7 @@
 		};
 		6DE6CDFC2C7781640041D118 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F12851CAECAB20F1CB82C0D /* Pods-RegulaDemoApp.debug.xcconfig */;
+			baseConfigurationReference = 95505EAA8F326B9E8F6DEDC7 /* Pods-RegulaDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -517,7 +909,7 @@
 		};
 		6DE6CDFD2C7781640041D118 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F911EFE3E315B5FAD0C2FCAB /* Pods-RegulaDemoApp.release.xcconfig */;
+			baseConfigurationReference = 4654D8A075ACA94F018DB9FD /* Pods-RegulaDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -548,7 +940,7 @@
 		};
 		6DE6CE6E2C77844E0041D118 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F10690835A97C401C075F8B /* Pods-RegulaDemoFramework.debug.xcconfig */;
+			baseConfigurationReference = A36BBB1CC624350296BD6442 /* Pods-RegulaDemoFramework.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -587,7 +979,7 @@
 		};
 		6DE6CE6F2C77844E0041D118 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A156A212873C4307A19F0622 /* Pods-RegulaDemoFramework.release.xcconfig */;
+			baseConfigurationReference = C4008B7061BCECBB6DC6AFE4 /* Pods-RegulaDemoFramework.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
