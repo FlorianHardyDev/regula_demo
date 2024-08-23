@@ -14,7 +14,7 @@ class DemoViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .systemRed
-        label.text = "We should not land on this screen when the liveness close button is tapped.\n\nPress button below to launch the demo:"
+        label.text = "We should NOT land on this screen when the liveness close button is tapped.\n\nPress button below to launch the demo:"
         label.textAlignment = .center
         label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
