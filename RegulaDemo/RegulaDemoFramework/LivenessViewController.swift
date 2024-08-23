@@ -6,19 +6,29 @@ protocol RegulaLivenessDelegate: AnyObject {
 
 class LivenessViewController: UIViewController {
     let button = UIButton()
+    let label = UILabel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .lightGray
+        view.backgroundColor = .systemGreen
+        label.text = "We should land on this screen when the liveness close button is tapped.\n\nPress button below to launch the liveness:"
+        label.textAlignment = .center
+        label.numberOfLines = 0
+        label.translatesAutoresizingMaskIntoConstraints = false
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Launch Liveness", for: .normal)
         button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         button.setTitleColor(.systemBlue, for: .normal)
+        view.addSubview(label)
         view.addSubview(button)
 
         NSLayoutConstraint.activate([
-            button.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
+            label.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            label.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            label.bottomAnchor.constraint(equalTo: button.topAnchor),
+            button.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            button.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
             button.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor)
         ])
     }
